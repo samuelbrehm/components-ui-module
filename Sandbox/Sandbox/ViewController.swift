@@ -6,8 +6,14 @@
 //
 
 import UIKit
+import ComponentsUI
 
 class ViewController: UIViewController {
+    
+    
+    @IBOutlet weak var componentContainerView: UIView!
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

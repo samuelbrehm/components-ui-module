@@ -1,0 +1,35 @@
+{
+  "name": "ComponentsUI",
+  "version": "0.1.0",
+  "summary": "Components to be used in the App.",
+  "homepage": "https://github.com/samuelbrehm/components-ui-module",
+  "authors": {
+    "Samuel Brehm": "samuelbrehm@gmail.com"
+  },
+  "license": {
+    "type": "public"
+  },
+  "source": {
+    "git": "https://github.com/samuelbrehm/components-ui-module.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "requires_arc": true,
+  "cocoapods_version": ">= 1.5",
+  "swift_versions": "5.5",
+  "source_files": "ComponentsUI/**/*.{h,m,swift}",
+  "resource_bundles": {
+    "ComponentsUI": [
+      "ComponentsUI/**/*.xcassets",
+      "ComponentsUI/**/*.xib"
+    ]
+  },
+  "dependencies": {
+    "UIView+Shimmer": [
+
+    ]
+  },
+  "swift_version": "5.5"
+}

@@ -1,0 +1,6 @@
+framework module ComponentsUI {
+  umbrella header "ComponentsUI-umbrella.h"
+
+  export *
+  module * { export * }
+}
