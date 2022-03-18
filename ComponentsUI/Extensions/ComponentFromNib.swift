@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 extension UIView {
     
@@ -31,11 +32,11 @@ extension UIView {
 extension Bundle {
     
     class func componentsBundle(for componentClass: AnyClass) -> Bundle {
-        if  let bundleURL = Bundle(for: componentClass).url(forResource: "AppComponents", withExtension: "bundle"),
+        if let bundleURL = Bundle(for: componentClass).url(forResource: "ComponentsUI", withExtension: "bundle"),
             let bundle = Bundle(url: bundleURL)  {
             return bundle
         }
-        if let bundle = Bundle(identifier: "br.com.components.AppComponents") {
+        if let bundle = Bundle(identifier: "app.a1softwares.ComponentsUI") {
             return bundle
         }
         fatalError("Bundle not found")

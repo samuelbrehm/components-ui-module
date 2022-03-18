@@ -27,6 +27,7 @@
 		6236855827E3D87A00487783 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6236855B27E3D87A00487783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6236855D27E3D87A00487783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62F7BF6827E4FF4A00F03391 /* ComponentsUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ComponentsUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE71B6569C116F94BB93746 /* Pods_Sandbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sandbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -87,6 +88,7 @@
 		F7E453629FF5F47874464965 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				62F7BF6827E4FF4A00F03391 /* ComponentsUI.framework */,
 				BEE71B6569C116F94BB93746 /* Pods_Sandbox.framework */,
 			);
 			name = Frameworks;

@@ -31,8 +31,6 @@ public class CardComponent: UIView, ComponentType {
     @IBAction func didTapFavoriteButton(_ sender: UIButton) {
         self.delegate?.cardComponentDidTapFavoriteButton(self)
     }
-    
-    
 }
 
 extension CardComponent {

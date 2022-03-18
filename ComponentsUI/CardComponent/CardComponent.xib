@@ -9,7 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="__FILEBASENAME__Component" customModule="ComponentsUI" customModuleProvider="target">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="CardComponent" customClass="CardComponent" customModule="ComponentsUI" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="472" height="282"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -20,7 +20,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hws-1v-rSa">
-                    <rect key="frame" x="32" y="85" width="408" height="165"/>
+                    <rect key="frame" x="32" y="59" width="408" height="217"/>
                     <string key="text">Mussum Ipsum, cacilds vidis litro abertis. In elementis mé pra quem é amistosis quis leo.Praesent malesuada urna nisi, quis volutpat erat hendrerit non. Nam vulputate dapibus.Não sou faixa preta cumpadi, sou preto inteiris, inteiris.Copo furadis é disculpa de bebadis, arcu quam euismod magna.</string>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
@@ -32,10 +32,12 @@
                         <constraint firstAttribute="height" constant="48" id="0YW-2T-QnL"/>
                         <constraint firstAttribute="width" constant="48" id="XDG-HU-Wrt"/>
                     </constraints>
-                    <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="plain" image="star.fill" catalog="system">
-                        <color key="baseForegroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </buttonConfiguration>
+                    <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="star.fill" catalog="system">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="titleShadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
                     <connections>
                         <action selector="didTapFavoriteButton:" destination="iN0-l3-epB" eventType="touchUpInside" id="QFd-NI-7ud"/>
                     </connections>
@@ -47,12 +49,12 @@
                 <constraint firstItem="FNJ-Ae-eD7" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="32" id="3wy-Fy-QSt"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Hws-1v-rSa" secondAttribute="trailing" constant="32" id="4Wz-Z0-Jpd"/>
                 <constraint firstItem="FNJ-Ae-eD7" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="32" id="6cx-SE-aST"/>
-                <constraint firstItem="Hws-1v-rSa" firstAttribute="top" secondItem="FNJ-Ae-eD7" secondAttribute="bottom" constant="32" id="LNu-Fh-rxO"/>
+                <constraint firstItem="Hws-1v-rSa" firstAttribute="top" secondItem="FNJ-Ae-eD7" secondAttribute="bottom" constant="6" id="LNu-Fh-rxO"/>
                 <constraint firstItem="Hws-1v-rSa" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="32" id="MZS-z9-e2r"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="ngg-pr-1KY" secondAttribute="trailing" constant="32" id="cSJ-Wf-dIa"/>
                 <constraint firstItem="ngg-pr-1KY" firstAttribute="leading" secondItem="FNJ-Ae-eD7" secondAttribute="trailing" constant="32" id="gcC-fe-aWF"/>
                 <constraint firstItem="ngg-pr-1KY" firstAttribute="centerY" secondItem="FNJ-Ae-eD7" secondAttribute="centerY" id="hFH-Nh-R0u"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Hws-1v-rSa" secondAttribute="bottom" constant="32" id="mwn-JI-0Wg"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Hws-1v-rSa" secondAttribute="bottom" constant="6" id="mwn-JI-0Wg"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
