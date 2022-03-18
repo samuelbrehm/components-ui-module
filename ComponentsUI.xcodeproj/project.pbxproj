@@ -16,6 +16,7 @@
 		6236857027E41CD500487783 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6236856E27E41CD500487783 /* Card.swift */; };
 		6236857127E41CD500487783 /* Card.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6236856F27E41CD500487783 /* Card.xib */; };
 		624DE58F27E4D0C100119CC4 /* ComponentFromNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 624DE58E27E4D0C100119CC4 /* ComponentFromNib.swift */; };
+		62CA552227E4F14F00E27600 /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CA552127E4F14F00E27600 /* UILabel+Extensions.swift */; };
 		A94C6BE55974D84601E563A4 /* Pods_ComponentsUI_ComponentsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC7917E58859FDC66B8F97B6 /* Pods_ComponentsUI_ComponentsUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		6236856E27E41CD500487783 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		6236856F27E41CD500487783 /* Card.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Card.xib; sourceTree = "<group>"; };
 		624DE58E27E4D0C100119CC4 /* ComponentFromNib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentFromNib.swift; sourceTree = "<group>"; };
+		62CA552127E4F14F00E27600 /* UILabel+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
 		8932D72C4379CF6FF3381934 /* Pods-ComponentsUI-ComponentsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComponentsUI-ComponentsUITests.debug.xcconfig"; path = "Target Support Files/Pods-ComponentsUI-ComponentsUITests/Pods-ComponentsUI-ComponentsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A5F81BBC70080565F5C97FCF /* Pods-ComponentsUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComponentsUI.debug.xcconfig"; path = "Target Support Files/Pods-ComponentsUI/Pods-ComponentsUI.debug.xcconfig"; sourceTree = "<group>"; };
 		CC7917E58859FDC66B8F97B6 /* Pods_ComponentsUI_ComponentsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ComponentsUI_ComponentsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,12 +111,11 @@
 		6236852B27E3D61100487783 /* ComponentsUI */ = {
 			isa = PBXGroup;
 			children = (
+				62CA552027E4F12700E27600 /* Extensions */,
+				62CA551E27E4F11600E27600 /* CardComponent */,
 				6236852C27E3D61100487783 /* ComponentsUI.h */,
 				6236852D27E3D61100487783 /* ComponentsUI.docc */,
 				6236856A27E4127B00487783 /* ComponentType.swift */,
-				6236856E27E41CD500487783 /* Card.swift */,
-				6236856F27E41CD500487783 /* Card.xib */,
-				624DE58E27E4D0C100119CC4 /* ComponentFromNib.swift */,
 			);
 			path = ComponentsUI;
 			sourceTree = "<group>";
@@ -133,6 +134,24 @@
 				6236856827E3D87B00487783 /* Sandbox.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		62CA551E27E4F11600E27600 /* CardComponent */ = {
+			isa = PBXGroup;
+			children = (
+				6236856E27E41CD500487783 /* Card.swift */,
+				6236856F27E41CD500487783 /* Card.xib */,
+			);
+			path = CardComponent;
+			sourceTree = "<group>";
+		};
+		62CA552027E4F12700E27600 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				624DE58E27E4D0C100119CC4 /* ComponentFromNib.swift */,
+				62CA552127E4F14F00E27600 /* UILabel+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		E8462D6B4C38CF071CB28362 /* Pods */ = {
@@ -340,6 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6236857027E41CD500487783 /* Card.swift in Sources */,
+				62CA552227E4F14F00E27600 /* UILabel+Extensions.swift in Sources */,
 				624DE58F27E4D0C100119CC4 /* ComponentFromNib.swift in Sources */,
 				6236852E27E3D61100487783 /* ComponentsUI.docc in Sources */,
 				6236856B27E4127B00487783 /* ComponentType.swift in Sources */,
