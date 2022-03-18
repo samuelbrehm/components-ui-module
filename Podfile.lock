@@ -1,0 +1,28 @@
+PODS:
+  - ComponentsUI (0.1.0):
+    - "UIView+Shimmer"
+  - SnapshotTesting (1.9.0)
+  - "UIView+Shimmer (1.0.0)"
+
+DEPENDENCIES:
+  - ComponentsUI (from `./`)
+  - SnapshotTesting
+  - "UIView+Shimmer"
+
+SPEC REPOS:
+  trunk:
+    - SnapshotTesting
+    - "UIView+Shimmer"
+
+EXTERNAL SOURCES:
+  ComponentsUI:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  ComponentsUI: 4ec3635ab02008878602fa36a1441487219109eb
+  SnapshotTesting: 6141c48b6aa76ead61431ca665c14ab9a066c53b
+  "UIView+Shimmer": ed634f95e8f4bda666b28b47bd85a4336a4117d8
+
+PODFILE CHECKSUM: ce2e0ad0888b154852e5b57a8a81323e67d941c8
+
+COCOAPODS: 1.11.2
